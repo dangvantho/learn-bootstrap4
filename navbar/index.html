@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+</head>
+<body>
+    <!--Navbar sm-->
+    <div class="navbar navbar-expand-sm navbar-dark bg-dark mb-4" >
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                Navbar brand
+            </a>
+            <button id="navbarToggler" class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarCollapse" 
+            aria-controls="navbarCollapse" aria-expanded="true" 
+            aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="navbar-collapse collapse " id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a href="" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link disabled">Disable</a>
+                    </li>
+                </ul>
+                <form action="" class="d-flex">
+                    <input type="text" class="form-control me-2">
+                    <input type="submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Navbar haven't responsive-->
+    <div class="navbar navbar-dark bg-dark navbar-expand  mb-4">
+        <div class="container-fluid">
+            <div class="navbar-brand bg-secondary px-3">
+                Logo
+            </div>
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="" class="nav-link">Link</a></li>
+                <li class="nav-item"><a href="" class="nav-link disabled">Disabled</a></li>
+            </ul>
+            <form action="" class="d-flex" >
+                <input type="text" class="form-control">
+            </form> 
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark navbar-expand-sm mb-4">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarCollapse3" 
+            aria-controls="navbarCollapse" aria-expanded="true" >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="navbar-collapse justify-content-sm-center collapse" id="navbarCollapse3">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Link</a></li>
+                    <li class="nav-item"><a class="nav-link disabled" href="">Disabled</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="../bootstrap.bundle.min.js"></script>
+</body>
+</html>
