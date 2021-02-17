@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <!--Button-->
+        <div class="row">
+            <div class="col-sm-4 mb-2">
+                <div class="btn btn-dark form-control">Dark button</div>
+            </div>
+            <div class="col-sm-4 mb-2">
+                <div class="btn btn-warning form-control">Warning btn</div>
+            </div>
+            <div class="col-sm-4 mb-2">
+                <div class="btn btn-outline-warning form-control">Warning outline btn</div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-sm-4 mb-2">
+                <button class="btn btn-primary form-control">Button primary</button>
+            </div>
+        </div>
+        <!--Button group-->
+        <div class="row">
+            <div class="col">
+                <div class="btn-group">
+                    <button class="btn btn-outline-warning" >1</button>
+                    <button class="btn btn-outline-warning">2</button>
+                    <button class="btn btn-outline-warning">3</button>
+                    <button class="btn btn-outline-warning">></button>
+                </div>
+            </div>
+        </div>
+        <!--Dropdown button-->
+        <div class="btn-group mt-4" role="group">
+            <button class="btn btn-primary">1</button>
+            <button class="btn btn-primary">2</button>
+            <div class="btn-group" role="group">
+                <button class="btn-primary dropdown-toggle border-0" type="button" id="btnGroupDrop1" 
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </button>
+                <ul class="dropdown-menu py-0" aria-labelledby="btnGroupDrop1">
+                    <li class="dropdown-item">3</li>
+                    <li class="dropdown-item">4</li>
+                    <li class="dropdown-item">5</li>
+                </ul>
+            </div>
+        </div>
+        <!--Button checkbox-->
+        <div class="row my-4">
+            <div class="btn-group">
+                <input type="checkbox" id="input1" class="btn-check">
+                <label class="btn btn-outline-primary" for="input1">Input1</label>
+                <input type="checkbox" id="input2" class="btn-check">
+                <label class="btn btn-outline-primary" for="input2">Input2</label>
+                <input type="checkbox" id="input3" class="btn-check">
+                <label class="btn btn-outline-primary" for="input3">Input3</label>
+            </div>
+        </div>
+        <!--Button radio-->
+        <div class="row my-4">
+            <div class="btn-group">
+                <input type="radio" id="1" class="btn-check" name="btnradio" >
+                <label for="1" class="btn btn-outline-primary">input1</label>
+                <input type="radio" id="2" class="btn-check" name="btnradio" >
+                <label for="2" class="btn btn-outline-primary">input2</label>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="../bootstrap.bundle.min.js"></script>
+</body>
+</html>
